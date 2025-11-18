@@ -1,0 +1,9 @@
+# Ignorar diretórios de build e logs
+bin/
+logs/
+
+# Ignorar arquivos temporários gerados pelo io_bound
+*.tmp
+
+# Ignorar arquivos de sistema
+.DS_Store
