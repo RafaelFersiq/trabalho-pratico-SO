@@ -1,0 +1,26 @@
+# Planejamento do Projeto: Escalonamento Linux
+
+## Implementações (processos)
+- [x] Criar programa CPU-Bound (Fibonacci recursivo)
+- [x] Criar programa I/O-Bound (Escrita em disco com flush)
+
+## Testes
+
+- [x] Testes sem política de escalonamento específica
+    - [x] Criar teste para CPU x CPU com diferentes prioridades em cores diferentes
+    - [x] Criar teste para CPU x CPU com diferentes prioridade no mesmo core
+    - [x] Criar teste para I/O x I/O com diferentes prioridades em cores diferentes
+    - [x] Criar teste para I/O x I/O com diferentes prioridades no mesmo core
+    - [x] Criar teste para CPU x I/O com mesma prioridade no mesmo core
+
+- [x] Testes com processos em FIFO no mesmo core
+    - [x] Criar teste para CPU x CPU 
+    - [x] Criar teste para I/O x I/O 
+    - [x] Criar teste para CPU x I/O 
+    - [x] Criar teste para CPU x I/O com CPU FIFO e I/O normal
+    - [x] Criar teste para CPU x I/O com CPU normal e I/O FIFO
+
+- [] Teste com processos em RR no mesmo core
+    - [x] Criar teste para CPU x CPU 
+    - [] Criar teste para I/O x I/O 
+    - [] Criar teste para CUP x I/O
